@@ -8,3 +8,5 @@ Introduction to Image Processing in Matlab
 ## Lab02 
 Translation, rotation, forward warping, backward warping, and median filter. 
 
+## Lab03 
+Spatial Filters
