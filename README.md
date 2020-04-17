@@ -29,12 +29,12 @@ In this lab, we detect straight lines from an image using the image's edge map.
 
 Bridge Cartesian Line             |  Bridge Cartesian Space 
 :--------------------------------:|:--------------------------------:
-![](./Lab08/bridge_mb_line.png)   | ![](./Lab08/bridge_mb_space.png)
+![](./Lab08/bridge_mb_space.png)   | ![](./Lab08/bridge_mb_line.png)
 
 ### Example of Hough Transform Polar applied on bridge.png
 
 Bridge Polar Line                 |  Bridge Polar Space 
 :--------------------------------:|:--------------------------------:
-![](./Lab08/bridge_polar_line.png)| ![](./Lab08/bridge_polar_space.png)
+![](./Lab08/bridge_polar_space.png)| ![](./Lab08/bridge_polar_line.png)
 
 > More figures with their corresponding images can be found in the lab folder.
