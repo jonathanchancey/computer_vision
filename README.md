@@ -13,9 +13,27 @@ rotate 90 deg | crop image | flip image
 :---:|:---:|:---:
 ![](./Lab01/rotate.jpg) |![](./Lab01/crop.jpg) |![](./Lab01/flip.jpg) 
 
-combine images
+### combine images manually with boarder
+
+```matlab
+canvas = zeros(300*2+10,400*2+10,3,'uint8'); % create the image
+
+% read the input images
+i01 = imread('01.jpg');
+i02 = imread('02.jpg');
+i03 = imread('03.jpg');
+i04 = imread('04.jpg');
+
+% place each image on the output canvas
+canvas(1:300,1:400,:) = i01;
+canvas(1:300,411:810,:) = i02;
+canvas(311:610,1:400,:) = i03;
+canvas(311:610,411:810,:) = i04;
+```
 
 ![](./Lab01/combine.jpg)
+
+
 
 
 
