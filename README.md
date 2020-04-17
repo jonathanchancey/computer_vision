@@ -72,7 +72,7 @@ scale 1 | scale 2 | scale 3 | scale 4 | scale 5
 #### Performs better with intensity changes than SSD
 
 original | template | result
-:---:|:---:|:---:|:---:|:---:
+:---:|:---:|:---:
 ![](./Lab05/einstein2.jpg) | ![](./Lab05/template.jpg) |![](./Lab05/template_matching_normcorr_einstein2.jpg_threshold_0.5.jpg) 
 
 ## Lab06 
